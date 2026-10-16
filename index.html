@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/cache-academy/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b0f19" />
+    <title>Cache Forge — Master Web Cache Poisoning &amp; Deception</title>
+    <meta
+      name="description"
+      content="Cache Forge is a hands-on academy for Web Cache Poisoning and Web Cache Deception: animated video tutorials, live attack labs, and a defensive cache playground. Learn how unkeyed inputs and the two-parser gap really work — safely, in your browser."
+    />
+    <meta property="og:title" content="Cache Forge — Master Web Cache Poisoning &amp; Deception" />
+    <meta
+      property="og:description"
+      content="Animated video tutorials, live cache-poisoning and cache-deception attack labs, and a defensive cache playground. Understand the attack, then break it."
+    />
+    <meta property="og:type" content="website" />
+    <script>
+      // Apply theme before first paint to avoid a flash.
+      (function () {
+        try {
+          var t = localStorage.getItem('cache-theme')
+          if (t !== 'light' && t !== 'dark') t = 'dark'
+          document.documentElement.dataset.theme = t
+          if (t === 'dark') document.documentElement.classList.add('dark')
+        } catch (e) {
+          document.documentElement.dataset.theme = 'dark'
+          document.documentElement.classList.add('dark')
+        }
+      })()
+    </script>
+    <script type="module" crossorigin src="/cache-academy/assets/index-BiWVXHfk.js"></script>
+    <link rel="modulepreload" crossorigin href="/cache-academy/assets/jsx-runtime-CK4DonMK.js">
+    <link rel="stylesheet" crossorigin href="/cache-academy/assets/index-Csdzw3_C.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
